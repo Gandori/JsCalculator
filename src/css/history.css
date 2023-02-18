@@ -1,0 +1,53 @@
+#history
+{
+    background-color: var(--white);
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: var(--borderRadius);
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+#history-btn
+{
+    background-color: var(--purple);
+    border: 0px;
+    color: var(--white);
+    padding: 10px;
+    border-radius: var(--borderRadius);
+    transition: background-color 0.5s;
+}
+
+#history-btn:hover
+{
+    cursor: pointer;
+    background-color: var(--purple2);
+    font-weight: 800;
+}
+
+#history-main
+{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#history-label
+{
+    border-bottom: 1px solid var(--black);
+    text-align: left;
+    opacity: 0.5;
+    padding: var(--padding);
+    color: var(--black);
+    word-break: break-all;
+}
+
+#history-label:hover
+{
+    cursor: pointer;
+    opacity: 1;
+}

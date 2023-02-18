@@ -1,0 +1,12 @@
+:root
+{
+    --black: rgb(50, 50, 50);
+    --white: rgb(240, 240, 240);
+    --purple: #7921fb;
+    --purple2: #ab20fe;
+    --fontSize: 18px;
+    --fontFamily: monospace;
+    --borderRadius: 5px;
+    --padding: 10px;
+    --gap: 10px;
+}
